@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:1-134:12
+	package
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:11:5-132:19
+	android:label
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:13:9-36
+	android:allowBackup
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.moneydrop.WelcomePage
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:17:13-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:22:27-74
+service#com.example.moneydrop.Background
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:26:9-28:38
+	android:enabled
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:27:13-60
+service#com.example.moneydrop.congrazSound
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:29:3-86
+	android:enabled
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:29:12-34
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:29:35-84
+service#com.example.moneydrop.GameOverSound
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:30:3-87
+	android:enabled
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:30:12-34
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:30:35-85
+activity#com.example.moneydrop.About
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:31:9-33:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:32:13-55
+activity#com.example.moneydrop.MainActivity
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:35:9-37:15
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:36:13-62
+activity#com.example.moneydrop.QuestionAndAnswer
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:38:9-40:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:39:13-67
+activity#com.example.moneydrop.QuestionTypePage
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:41:9-43:15
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:42:13-66
+activity#com.example.moneydrop.QuestionAndAnswer1
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:44:9-46:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:45:13-68
+activity#com.example.moneydrop.QuestionTypePage1
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:47:9-49:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:48:13-67
+activity#com.example.moneydrop.QuestionAndAnswer2
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:50:9-52:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:51:13-68
+activity#com.example.moneydrop.QuestionTypePage2
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:53:9-55:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:54:13-67
+activity#com.example.moneydrop.QuestionAndAnswer3
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:56:9-58:15
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:57:13-68
+activity#com.example.moneydrop.QuestionTypePage3
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:59:9-61:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:60:13-67
+activity#com.example.moneydrop.QuestionAndAnswer5
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:62:9-64:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:63:13-68
+activity#com.example.moneydrop.QuestionTypePage5
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:65:9-67:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:66:13-67
+activity#com.example.moneydrop.QuestionAndAnswer6
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:68:9-70:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:69:13-68
+activity#com.example.moneydrop.QuestionTypePage6
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:71:9-73:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:72:13-67
+activity#com.example.moneydrop.QuestionTypePage4
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:74:9-76:15
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:75:13-67
+activity#com.example.moneydrop.QuestionTypePage7
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:77:9-79:16
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:78:13-67
+activity#com.example.moneydrop.FinalPage
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:80:9-83:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:81:13-59
+activity#com.example.moneydrop.QuestionAndAnswer4
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:84:9-87:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:85:13-68
+activity#com.example.moneydrop.QuestionAndAnswer7
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:88:9-91:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:89:13-68
+activity#com.example.moneydrop.AboutPage
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:92:9-95:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:93:13-59
+activity#com.example.moneydrop.ShowCorrectAndAmount
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:96:9-99:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:97:13-70
+activity#com.example.moneydrop.ShowCorrectAndAmount1
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:100:9-103:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:101:13-71
+activity#com.example.moneydrop.ShowCorrectAndAmount2
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:104:9-107:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:105:13-71
+activity#com.example.moneydrop.ShowCorrectAndAmount3
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:108:9-111:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:109:13-71
+activity#com.example.moneydrop.ShowCorrectAndAmount4
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:112:9-115:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:113:13-71
+activity#com.example.moneydrop.ShowCorrectAndAmount5
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:116:9-119:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:117:13-71
+activity#com.example.moneydrop.ShowCorrectAndAmount6
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:120:9-123:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:121:13-71
+activity#com.example.moneydrop.ShowCorrectAndAmount7
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:124:9-127:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:125:13-71
+activity#com.example.moneydrop.ExitPage
+ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:128:9-131:20
+	android:name
+		ADDED from D:\MoneyDrop1\app\src\main\AndroidManifest.xml:129:13-58

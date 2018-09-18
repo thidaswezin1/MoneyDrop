@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff1e90ff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ViewFlipper
+    android:id="@+id/viewflipper"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:autoStart="true"
+    android:flipInterval="2000">
+    
+        <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/i1"
+          android:scaleType="fitXY" />
+
+     	<ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/quiz3"
+         android:scaleType="fitXY" />
+
+    	 <ImageView
+     	   android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/quiz5"
+          android:scaleType="fitXY" /> -->
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/quiz6"
+          android:scaleType="fitXY" />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/q" 
+          android:scaleType="fitXY"/>
+      <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/i3"
+          android:scaleType="fitXY" />
+       <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/i5"
+          android:scaleType="fitXY" />
+       <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:src="@drawable/quiz4"
+         android:scaleType="fitXY" />
+    
+</ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewflipper"
+        android:layout_centerVertical="true"
+        android:text="Dear Player,"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView1"
+        android:text="At first, you will have 2 million kyats."
+       
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:text="You must play Level1,Level2,Level3 with your money.You must answer four questions in Level1,three in Level2 and one in level3.If you finish Level3 and you have money, you are winner. "
+        
+
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="If you don&apos;t have money, you will fail."
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="104dp"
+        android:background="@drawable/mybutton"
+        android:text="Play"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPlay"
+        android:layout_alignBottom="@+id/btnPlay"
+        android:layout_marginRight="29dp"
+        android:layout_toLeftOf="@+id/btnPlay"
+        android:background="@drawable/mybutton"
+        android:text="Exit"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

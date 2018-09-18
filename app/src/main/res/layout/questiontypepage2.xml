@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffb6c1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="LEVEL3"
+        android:textColor="#440000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView1"
+        android:background="@drawable/mybutton1"
+        android:text="GO"
+        android:textColor="#FFFFFFFF" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp" >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cars"
+            android:textColor="#440000"
+            android:textSize="23sp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Festivals"
+            android:textColor="#440000"
+            android:textSize="23sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/proud1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Choose the Question Type!!!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#440000" />
+    
+</RelativeLayout>

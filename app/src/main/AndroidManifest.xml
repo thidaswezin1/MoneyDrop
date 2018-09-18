@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moneydrop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/m2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.moneydrop.WelcomePage"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.moneydrop.Background"
+            android:enabled="true" />
+		<service android:enabled="true" android:name="com.example.moneydrop.congrazSound"/>
+		<service android:enabled="true" android:name="com.example.moneydrop.GameOverSound"/>
+        <activity
+            android:name="com.example.moneydrop.About"
+             />
+        
+        <activity
+            android:name="com.example.moneydrop.MainActivity"
+            />
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage"
+            />
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer1"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage1"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer2"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage2"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer3"
+            />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage3"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer5"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage5"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer6"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage6"
+             />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage4"
+            />
+        <activity
+            android:name="com.example.moneydrop.QuestionTypePage7"
+             />
+        <activity
+            android:name="com.example.moneydrop.FinalPage"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer4"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.QuestionAndAnswer7"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.AboutPage"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount1"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount2"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount3"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount4"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount5"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount6"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ShowCorrectAndAmount7"
+             >
+        </activity>
+        <activity
+            android:name="com.example.moneydrop.ExitPage"
+             >
+        </activity>
+    </application>
+
+</manifest>
